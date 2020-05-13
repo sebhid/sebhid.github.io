@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Porin kaupungin nettikamerat</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Porin kaupungin nettikamerat. Eteläranta Puuvillasta nähtynä.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/tyylit.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="icon" href="pics/pori-favicon.ico" />
+</head>
+
+<body>
+
+<main>
+<div class="mainwrap">
+
+	<h1>Yyteri</h1>
+
+	<!-- content-display gallery -->
+	<div class="row">
+	  <div class="column">
+	    <img src="http://webcam.pori.fi/thumbnail/yyteri_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="http://webcam.pori.fi/thumbnail/yyteri_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="http://webcam.pori.fi/thumbnail/yyteri_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="http://webcam.pori.fi/thumbnail/yyteri_4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	  </div>
+	  <div class="column">
+	    <img src="http://webcam.pori.fi/thumbnail/yyteri_5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+	  </div>
+	</div>
+<br>
+	<!-- slide-images within modal -->
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 5</div>
+	      <img src="http://webcam.pori.fi/yyteri_1.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 5</div>
+	      <img src="http://webcam.pori.fi/yyteri_2.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 5</div>
+	      <img src="http://webcam.pori.fi/yyteri_3.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">4 / 5</div>
+	      <img src=" http://webcam.pori.fi/yyteri_4.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">5 / 5</div>
+	      <img src="http://webcam.pori.fi/yyteri_5.jpg" style="width:100%">
+	    </div>
+
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	    <div class="caption-container">
+	      <p id="caption"></p>
+	    </div>
+
+
+	<!-- gallery select within modal -->
+		<div class="gallerycolumn">
+			<div class="column">
+			  <img class="demo cursor" src="http://webcam.pori.fi/yyteri_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kuva #1">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="http://webcam.pori.fi/yyteri_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kuva #2">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="http://webcam.pori.fi/yyteri_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Kuva #3">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="http://webcam.pori.fi/yyteri_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Kuva #4">
+			</div>
+			<div class="column">
+			  <img class="demo cursor" src="http://webcam.pori.fi/yyteri_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Kuva #5">
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	<script src="scripts/skriptit.js"></script>
+
+</div>
+</main>
+
+
+
+<nav>
+	<h1 class="porilogo">Pori</h1>
+	<h1 class="porilogosub">Kaupungin nettikamerat</h1>
+	<ul>
+		<li><a href=index.html>Kirjurinluoto</a></li>
+		<li><a href=maauimala.html>Maauimala</a></li>
+		<li><a href=maauimala2.html>Maauimala 2</a></li>
+		<li><a href=kauppatori.html>Porin kauppatori</a></li>
+		<li><a href=puuvilla.html>Puuvilla</a></li>
+		<li><a href=reposaari.html>Reposaari</a></li>
+		<li><a href=yyteri.html>Yyteri</a></li>
+	</ul>
+</nav>
+
+</body>
+</html>
