@@ -4,7 +4,7 @@ nav, main {display: block;}
 
 @font-face {
   font-family: PORISans;
-  src: url(porisans-bold.ttf);
+  src: url(../fonts/PORISans-Bold.ttf);
 }
 
 body {
