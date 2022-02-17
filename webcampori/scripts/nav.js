@@ -1,4 +1,4 @@
-var html = '<li><a href=ndex.html>Kirjurinluoto</a></li>\
+var html = '<li><a href=index.html>Kirjurinluoto</a></li>\
 			<li><a href=maauimala.html>Maauimala</a></li>\
 			<li><a href=maauimala2.html>Isomäen latukamera</a></li>\
 			<li><a href=kauppatori.html>Porin kauppatori</a></li>\
