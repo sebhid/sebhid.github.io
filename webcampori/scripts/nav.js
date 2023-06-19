@@ -4,7 +4,6 @@ var html = '<li><a href=index.html>Kirjurinluoto</a></li>\
 			<li><a href=kauppatori.html>Porin kauppatori</a></li>\
 			<li><a href=reposaari.html>Reposaari</a></li>\
 			<li><a href=yyteri.html>Yyteri</a></li>\
-			<li><a href=munakari.html>Munakari</a></li>\
 			<li><a href=noormarkku.html>Noormarkun kirkkokallio</a></li>\
 			<li><a href=vaharauma.html>Vähä-Rauman koulun työmaa</a></li>\
 			<li><a href=etelaranta.html>Eteläranta</a></li>'
